@@ -1,0 +1,125 @@
+body{
+    background-color: #484848;
+    font-family: "Roboto", sans-serif;
+    justify-content: space-between;
+    }
+    .text1{
+        position: relative;
+        font-size: 54px;
+        color: rgb(199, 199, 199);
+        top: 30px;
+    }
+    .user{
+        position: relative;
+        font-size: 32px;
+        color: rgb(199, 199, 199);
+        right: 70px;
+        top: 45px;
+    }
+    .icon{
+        height: 50px;
+        width: 50px;
+        border: 2px solid rgb(49, 49, 49);
+        background-color: rgb(82, 82, 82);
+    }
+    .supercontainer{
+       /* position: absolute; */
+       top: 90px;
+       left: 30px;
+       /* height: 120px; */
+       width: 1200;
+       /* gap: 13px; */
+       display: flex;
+       /* justify-content: space-between; */
+    }
+    .tetracontainer{
+        height: 640px;
+        width: 648px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .square{
+        margin: 5px 5px 5px 5px;
+        height: 150px;
+        width: 311px;
+    }
+    #Q1{
+        background-color:rgb(2, 107, 107) ;
+    }
+    #Q2{
+        background-color:rgb(95, 0, 247) ;
+    }
+    #Q3{
+        background-color:rgb(228, 88, 37)  ;
+    }
+    #Q4{
+        background-color: aquamarine ;
+    }
+    #Q5{
+        background-color: violet ;
+    }
+    #Q6{
+        background-color:  green;
+    }
+    #Q7{
+        background-color:  skyblue;
+    }
+    #Q8{
+        background-color: rgb(47, 124, 155);
+    }
+    .text2{
+        position: relative;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: left;
+        top: 125px;
+        left: 5px;
+    }
+    .megagigacontainer{
+        height: 640px;
+        /* width: 363px; */
+        /* display: flex; */
+        flex-direction: row;
+    }
+    .megacontainer{
+        /* position: relative; */
+        display: flex;
+        flex-wrap: wrap;
+        height: 320px;
+        width: 340px;
+        left: 643px;
+        bottom: 641px;
+    }
+    .microsquare{
+        margin: 5px 5px 5px 5px;
+        height: 150px;
+        width: 150px;
+    }
+    #M1{
+        background-color: rgb(46, 178, 255);
+    }
+    #M2{
+        background-color: rgb(19, 163, 19);
+    }
+    #M3{
+        background-color: rgb(136, 23, 136);
+    }
+    #M4{
+        background-color: rgb(39, 39, 255);
+    }
+    .gigacontainer{
+        /* position: relative; */
+        display: flex;
+        flex-wrap: wrap;
+        height: 320px;
+        width: 340px;
+        justify-content: space-between;
+        left: 643px;
+        bottom: 641px;
+    }
+    #G1{
+        background-color: rgb(78, 1, 151);
+    }
+    #G2{
+        background-color: rgb(153, 25, 51);
+    }
